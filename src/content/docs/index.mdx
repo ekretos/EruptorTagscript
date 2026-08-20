@@ -1,0 +1,37 @@
+---
+title: Eruptor Documentation
+description: The definitive documentation for Eruptor Bot’s TagScript & Dynamic Trigger Engine.
+template: splash
+hero:
+  tagline: Build dynamic tags, live music triggers, 15-band studio equalizers, and intelligent Discord auto-responders.
+  image:
+    file: ../../assets/houston.webp
+  actions:
+    - text: Get Started
+      link: /getting-started/introduction/
+      icon: right-arrow
+      variant: primary
+    - text: Explore Recipes
+      link: /recipes/music-automation/
+      icon: open-book
+      variant: secondary
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## What Makes Eruptor Powerful?
+
+<CardGrid stagger>
+	<Card title="🚀 Fast & Intuitive TagScript" icon="rocket">
+		Create custom server commands and auto-responders with a recursive-descent AST engine in seconds.
+	</Card>
+	<Card title="🎵 Real-Time Lavalink Audio" icon="star">
+		Seamlessly interact with audio streams, track queues, live volume manipulation, and dynamic search suggestions.
+	</Card>
+	<Card title="🎛️ 15-Band Equalizer & DSP" icon="setting">
+		Apply studio audio filters like **Nightcore**, **Slowed + Reverb**, **8D Audio**, or craft custom EQ profiles with `{tune}`.
+	</Card>
+	<Card title="🛡️ Granular Security & Gates" icon="shield">
+		Protect commands with DJ role requirements, voice presence checks, cooldowns, and admin permission gates.
+	</Card>
+</CardGrid>
